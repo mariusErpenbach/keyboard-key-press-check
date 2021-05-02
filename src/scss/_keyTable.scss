@@ -1,0 +1,17 @@
+#keyboard{
+    width:auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    border-style:solid;
+
+#keyTable{
+    flex:auto;
+    width:auto;
+    border-style:solid;
+    tr{
+        td{
+            border-style:solid;
+        }
+    }
+}}
