@@ -1,3 +1,33 @@
+#keyboard {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+#keyboard #keyTable {
+  flex: auto;
+  width: auto;
+  border-style: solid;
+}
+#keyboard #keyTable tr td {
+  border-style: solid;
+}
 
+#numBlock {
+  flex: auto;
+  width: auto;
+}
+#numBlock td {
+  border-style: solid;
+}
+
+#specialKeys {
+  flex: auto;
+  width: auto;
+}
+#specialKeys td {
+  border-style: solid;
+}
 
 /*# sourceMappingURL=main.css.map */
