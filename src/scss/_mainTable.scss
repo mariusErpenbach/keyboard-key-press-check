@@ -1,0 +1,52 @@
+#keyboard{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    border-style:solid;
+
+table{
+    border-style:solid;
+    tr{
+        display:flex;
+        td{
+            height:2em;
+            flex:auto;
+            border-style:solid;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            p{
+              height:auto;
+            }
+        }   
+        
+    }
+}
+#keyTable{
+    flex:60;
+    #space-key{
+        flex:60;
+        td{
+            flex:auto;
+            width:1em;
+        }
+    };
+}
+#specialKeys{
+    flex:20;
+    td{
+        flex:auto;
+        width:1em;
+    }
+}
+#numBlock{
+    flex:20;
+    td{
+        flex:auto;
+        width:1em;
+    }
+    #numblock-zero{
+
+    }
+}
+}
