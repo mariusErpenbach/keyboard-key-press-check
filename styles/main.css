@@ -1,33 +1,49 @@
 #keyboard {
-  width: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   border-style: solid;
 }
+#keyboard table {
+  border-style: solid;
+}
+#keyboard table tr {
+  display: flex;
+}
+#keyboard table tr td {
+  height: 2em;
+  flex: auto;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#keyboard table tr td p {
+  height: auto;
+}
 #keyboard #keyTable {
+  flex: 60;
+}
+#keyboard #keyTable #space-key {
+  flex: 60;
+}
+#keyboard #keyTable #space-key td {
   flex: auto;
-  width: auto;
-  border-style: solid;
+  width: 1em;
 }
-#keyboard #keyTable tr td {
-  border-style: solid;
+#keyboard #specialKeys {
+  flex: 20;
 }
-
-#numBlock {
+#keyboard #specialKeys td {
   flex: auto;
-  width: auto;
+  width: 1em;
 }
-#numBlock td {
-  border-style: solid;
+#keyboard #numBlock {
+  flex: 20;
 }
-
-#specialKeys {
+#keyboard #numBlock td {
   flex: auto;
-  width: auto;
-}
-#specialKeys td {
-  border-style: solid;
+  width: 1em;
 }
 
 /*# sourceMappingURL=main.css.map */
