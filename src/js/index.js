@@ -1,8 +1,9 @@
 function highlightKey(e){
+    console.log(e.key)
     var keys = document.getElementsByTagName("p");
     // search keyboard tables for keypress matches
     for(i=0;keys.length>i;i++){
-        if (e.key.toUpperCase()==keys[i].innerHTML){
+        if (e.key.toUpperCase()==keys[i].innerHTML.toUpperCase()){
            keys[i].style ="background-color:yellow;";     
         }
     }
@@ -11,7 +12,7 @@ function unlightKey(e){
     var keys = document.getElementsByTagName("p");
     // search keyboard tables for keypress matches
     for(i=0;keys.length>i;i++){
-        if (e.key.toUpperCase()==keys[i].innerHTML){
+        if (e.key.toUpperCase()==keys[i].innerHTML.toUpperCase()){
            keys[i].style ="background-color:;";     
         }
     }
